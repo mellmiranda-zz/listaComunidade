@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <title>Lista de Comunidades para Minas</title>
+</head>
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="#alista">A lista</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="#eventos">Tia Mel</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Principal-->
+<div class="tela__inicial">
+    <div class="container container__telainicial">
+        <img class="d-none d-sm-block img-mulher" src="assets/mel-fundotransparente2.svg" alt="Responsive image">
+        <div class="container containerH1">
+            <h1 class="title" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2500">Listão das Minas</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Seta-->
+<div class="arrow__indication">
+<a href="#alista">
+    <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+</a>
+</div>
+
+<!--A lista-->
+<div class="container_main">
+    <div class="row" data-aos="fade-down">
+        <div class="container col-lg-7">
+                <section class="section__alista">
+                    <h2 class="title__main" id="alista">A lista</h2>
+                    <p>Muitas meninas me perguntam sobre comunidades, meetups e eventos na área de TI afim de procurar networking e uma rede de apoio, com ajuda de outras mulheres, fiz essa lista onde fica fácil acesso para todas:</p>
+                    <h2 class="subtitle">Iniciativas</h2>
+                    <a href="https://www.reprograma.com.br/">Reprograma</a>
+                    <a href="https://www.laboratoria.la/br">Laboratória</a>
+                    <a href="https://desprograme.com.br/pt">Desprograme</a>
+                    <br>
+                    <h2 class="subtitle">Comunidades</h2>
+                    <p class="subtitleB">Temas diversos:</p>
+                    <a>FemmeIT</a>
+                    <a>Womakerscode</a>
+                    <a>Elas Programam</a>
+                    <a>Programaria</a>
+                    <a>Nerdzão [NerdGirlz]</a>
+                    <a>CloudGirls</a>
+                    <a>Minas Programam</a>
+                    <a>GirlsInTech</a>
+                    <a>Empoderatech</a>
+                    <a>Meninas Digitais</a>
+                    <a>Maria Lab</a>
+                    <a>JSLadies</a>
+                    <a>Women Techmakers SP</a>
+                    <a>Rede Mulher Empreendedora</a>
+                    <a>Tech Ladies Brasil</a>
+                    <a>Ladies that UX SP</a>
+                    <br>
+                    <p class="subtitleB">Temas específicos:</p>
+                    <a>Devsjavagirl - Java</a>
+                    <a>Django Girls - Python/Django</a>
+                    <a>Pyladies - Python</a>
+                    <a>E AI girls - Inteligencia Artificial</a>
+                    <a>AI Girls - Inteligencia Artificial</a>
+                    <a>Rails girls - Rails</a>
+                    <a>UX para Minas Pretas - UX Design</a>
+                    <a>SysAdminas - Devops/Suporte</a>
+                    <a>Go girls - GO</a>
+                    <a>Mulheres de Produto - UX, gestão de projetos</a>
+                    <a>SheSharp - C# e .Net</a>
+                    <a>Mulheres no e-commerce - área de e-commerce</a>
+                    <a>Womcy - Cyber security</a>
+                    <a>QaLadies - Qualidade e Automação de Teste</a>
+                    <a>Test Girls - Qualidade e Automação de Teste</a>
+                    <a>Woman.kt - Kotlin</a>
+                    <a>WIMLDS - Machine Learning & Data Science</a>                       
+                </section>
+<!--Formulário pra contato-->  
+        <h2 class="title__forms" id="contato">Entre em contato:</h2>
+        <h5>Tem algum dúvida? Precisa de alguma ajuda? Adicionar alguma comunidade ou iniciativa? Manda pra aí! ♥</h5>
+            <form method="POST" class="formulario" data-aos="fade-down" action="/success"  name="Form_Infragirls" netlify>
+                <div class="form-row col-md-12 col-sm-4">
+                    <div class="form-group col-md-12">
+                        <label for="inputEmail4">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="inputName" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="exampleFormControlInput1">Celular</label>
+                        <input type="number" class="form-control" name="celular" id="inputCelular" placeholder="celular">
+                    </div>
+                    <div class="form-group col-md-12"></div>
+                    <label for="exampleFormControlTextarea1">Digite sua mensagem</label>
+                    <textarea class="form-control" name="mensagem" id="inputMensagem" rows="7"></textarea>
+                </div>
+                <div class="button__form">
+                    <button class="btn btn-teste btn-outline-secondary">Enviar</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+
+
+<!--Idealizadora-->
+    <div class="idealizadora">
+        <div class="container">
+            <div class="row container__idealizadora"">
+    <div class=" col-lg-3">
+                <img src="assets/foto-melanie.png" alt="..." class="imagem__perfil">
+            </div>
+            <div class="col-lg-9">
+                <h2 class="title__main" id="eventos">Melanie Miranda</h2>
+                <p>Mais conhecida como Mel, sou formada em Análise e Desenvolvimento de Sistemas e também pelo bootcamp da Reprograma, trabalhei por 5 anos na área de suporte e
+                    infraestrutura e hoje atuo como desenvolvedora Front End. Amo Meetups, hackathons e eventos de tecnologia, ajudo na organização do Nerdzão e CaquiCoders e sou apaixonada por Star Wars, Gatos, Café e Chocolate. Luto diariamente contra a auto sabotagem e com isso ajudo outras mulheres a acreditarem m si e com isso dimi8nuir o gap da presença feminina na tecnologia. </p>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Footer-->
+<footer class="footer">
+    <div class="redessociais"><a href="www.instagram.com.br/meninah.dev" target="_blank"> Meu instagram</a>  💜 <a href="https://www.linkedin.com/in/melanie-miranda/" target="_blank"> Meu Linkedin</a></div>
+</footer>
+</body>
+</body>
+</html>
