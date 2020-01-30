@@ -11,10 +11,10 @@ body {
   text-align: center;
   margin-top: 40px;
 }
-.subtitle{
+.subtitle {
   font-size: 24px;
 }
-.subtitleB{
+.subtitleB {
   font-weight: bold;
 }
 .navbar {
@@ -26,7 +26,7 @@ body {
 .nav-item {
   color: #3b3437;
 }
-.redessociais{
+.redessociais {
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ body {
   color: #771394;
   justify-content: flex-end;
 }
-.containerH1{
+.containerH1 {
   display: flex;
   align-items: center;
 }
@@ -60,7 +60,7 @@ body {
 .idealiadora {
   margin-top: 50px;
 }
-.section__alista{
+.section__alista {
   display: flex;
   flex-direction: column;
 }
@@ -192,16 +192,22 @@ body {
   -webkit-animation-delay: 0s; /* Safari 和 Chrome */
 }
 
-@media (max-width: 420px) {
+@media (min-width: 1200px) {
+  .container {
+    max-width: 0;
+  }
+  .navbar-toggler-icon {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
   .title {
     font-size: 40px;
   }
   .arrow__indication {
     display: none;
   }
+  .nav {
+    display: none;
+  }
 }
-@media (min-width: 1200px){
-.container {
-    max-width: 0;
-}
-]
