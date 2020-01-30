@@ -196,18 +196,12 @@ body {
   .container {
     max-width: 0;
   }
-  .navbar-toggler-icon {
-    display: none;
-  }
 }
 @media (max-width: 480px) {
   .title {
     font-size: 40px;
   }
   .arrow__indication {
-    display: none;
-  }
-  .nav {
     display: none;
   }
 }
